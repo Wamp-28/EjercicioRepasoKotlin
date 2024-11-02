@@ -129,7 +129,7 @@ fun main() {
         println("ES ADULTO")
     }
 */
-
+/*
     // WHEN
 
     println("INGRESE LA OPCION QUE DESEA")
@@ -152,6 +152,59 @@ fun main() {
         else-> println("no existe la opcion")
 
     }
+*/
+
+    // ciclos for
+/*
+    for (i in 1 .. 100) {
+
+        println(i)
+    }
+
+
+    for (j in 1 .. 100 step 3) {
+
+        println(j)
+    }
+
+
+    for (x in 100 downTo  1 step 3) {
+        println(x)
+    }
+*/
+    /*
+    println("INGRESE LA TABLA QUE DESEA")
+    var tabla = readln().toInt()
+
+    for (i in 1..10){
+        println("${tabla} x ${i} = ${(tabla*i)}")
+    }
+*/
+/*
+    // While
+
+    var z = 1
+
+    while(z<=10){
+
+        println(z)
+        z+=1
+
+    }
+    */
+
+    // do while
+
+    var m = 100
+
+    do{
+        println(m)
+        m--
+
+    }while(m>=1)
+
+
+
 
 
 
