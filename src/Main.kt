@@ -1,5 +1,6 @@
 import java.sql.SQLOutput
 import java.text.DecimalFormat
+import kotlin.random.Random
 
 fun main() {
 
@@ -194,7 +195,7 @@ fun main() {
     */
 
     // do while
-
+/*
     var m = 100
 
     do{
@@ -202,14 +203,46 @@ fun main() {
         m--
 
     }while(m>=1)
+*/
+/*
+    // Aleatorios
+
+    val dado = Random.nextInt(1, 7)
+    println("Resultado del dado: $dado")
+
+    val dado1 = Random.nextInt(50)
+    println("Resultado del dado: $dado1")
+
+ */
+
+    println("CLASE QUE SOLO SIRVE COMO PLANTILLA")
+
+    val lstEstudiantes = mutableListOf<Estudiante>()
 
 
+    val estudiante1  = Estudiante("abc1", "Juan", "Lopez", "Septimo")
+    val estudiante2  = Estudiante("abc2", "Lorena", "Gil", "Octavo")
+    val estudiante3  = Estudiante("abc3", "Pedro", "Rojas", "Noveno")
+
+   lstEstudiantes.add(estudiante1)
+   lstEstudiantes.add(estudiante2)
+   lstEstudiantes.add(estudiante3)
+
+    println(lstEstudiantes)
+
+    lstEstudiantes.forEach{est ->
+        println(est)
+    }
 
 
+    println("CLASE QUE TIENE LOGICA")
+
+    val estudianteLogica1 = EstudianteLogica("1010", "KEVIN", "CALLE 15 # 8-56", 15)
 
 
+    println(estudianteLogica1)
 
-
+    println(estudianteLogica1.mayorEdad(estudianteLogica1.edad))
 
 
 
@@ -217,3 +250,17 @@ fun main() {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
